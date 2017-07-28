@@ -27,7 +27,7 @@ public class DBHelper extends SQLiteOpenHelper {
                 Contract.TABLE_ARTICLES._ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 Contract.TABLE_ARTICLES.COLUMN_NAME_TITLE + " TEXT NOT NULL, " +
                 Contract.TABLE_ARTICLES.COLUMN_NAME_PUBLISHED_DATE + " DATE, " +
-                Contract.TABLE_ARTICLES.COLUMN_NAME_ABSTRACT + " TEXT, " +
+                Contract.TABLE_ARTICLES.COLUMN_NAME_DESCRIPTION + " TEXT, " +
                 Contract.TABLE_ARTICLES.COLUMN_NAME_THUMBURL + " TEXT, " +
                 Contract.TABLE_ARTICLES.COLUMN_NAME_URL + " TEXT" +
                 "); ";

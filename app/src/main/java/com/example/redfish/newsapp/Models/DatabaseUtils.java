@@ -36,7 +36,7 @@ public class DatabaseUtils {
             for (NewsItem a : articles) {
                 ContentValues cv = new ContentValues();
                 cv.put(COLUMN_NAME_TITLE, a.getTitle());
-                cv.put(COLUMN_NAME_ABSTRACT, a.getDescription());
+                cv.put(COLUMN_NAME_DESCRIPTION, a.getDescription());
                 cv.put(COLUMN_NAME_PUBLISHED_DATE, a.getPublishedAt());
                 cv.put(COLUMN_NAME_THUMBURL, a.getUrlToImage());
                 cv.put(COLUMN_NAME_URL, a.getUrl());
